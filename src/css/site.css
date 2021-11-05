@@ -4,11 +4,11 @@
 
 @layer components {
 	.h2 {
-		@apply text-white text-3xl font-semibold uppercase mb-4;
+		@apply text-white text-2xl font-semibold uppercase mb-3 lg:text-3xl lg:mb-4;
 	}
 
 	.h3 {
-		@apply gradient-text text-2xl font-normal leading-tight mb-2;
+		@apply gradient-text text-xl font-normal leading-tight mb-1 lg:mb-2 lg:text-2xl;
 	}
 
 	.paragraph {
